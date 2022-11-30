@@ -4,6 +4,8 @@ title: Tech Resources
 sidebar_label: Tech Resources
 ---
 
+<!-- this and the Tools & Infrastructure page seem redundant -->
+
 We understand that the tech/dev side is fundamental to developing web3 projects and taking them to the next level. Below are a collection of some of the most commonly referenced and most sought after technichal resources to help you get started.
 
 
