@@ -20,7 +20,7 @@ For simple content changes you have 2 options
 
 This is the fastest way to submit content changes directly from the page where you notice a mistake.
 
-1. Open any page in the docs on https://wiki.near.org
+1. Open any page in the docs on [wiki.near.org](https://wiki.near.org)
 2. Click the `[ Github ]` button at the top right hand side of _every_ content page
 3. Make your edits to the document that opens in GitHub by clicking the ✎ (pencil) icon
 4. Submit a PR with your changes and comments for context
@@ -74,7 +74,7 @@ Once logged in, you will be in the editor. The editor allows you to edit "Markdo
 When you are done with changes, you can describe what have you done in the text field at the bottom.
 The next step is to create a Pull Request that will inform Wiki editors to review your changes.
 
-For more information on how to use Github, please refer to [How to Contribute page](/wiki/contribute/how-to-contribute.md) of this section.
+For more information on how to use Github, please refer to [How to Contribute page](./how-to-contribute.md) of this section.
 
 ## Style Guide
 
@@ -82,7 +82,7 @@ To add images to a page in the wiki, start by adding an image to the folder unde
 Then you can include the image in a page by typing the following:
 
 ```md
-![Alt text/description of the image](/images/image-name.png)
+![Alt text/description of the image](@site/static/images/image-name.png)
 ```
 The above text is alt text inside a pair of `[]` that should explain what is in the image, followed by a pair of `()` that have a link to the image in the images folder.
 
@@ -100,7 +100,7 @@ Every page should have frontmatter, to make pages on the wiki easy to find and s
 
 If you want to link to a definition in the glossary, you can use a markdown link:
 ```md
-[Word](./getting-started/glossary.md#word)
+[Word](./../getting-started/glossary.md)
 ```
 In the above example, you put the word you're defining inside a pair of `[]`, then you link the glossary page inside `()` with a `#` followed by the specific word you're linking to.
 
@@ -116,11 +116,11 @@ This section is for terminology directly related to NEAR:
 - When you use acronyms, define them the first time you use them in a page.
 - In most cases, avoid future tense because it can be ambiguous.
 - Headings should be title case.
-- Add alt text to images so that screenreaders can understand what is happening in a picture.
+- Add alt text to images so that screen readers can understand what is happening in a picture.
 - Use active voice.
   Try to use active voice as often as possible, because passive voice can make a sentence ambiguous and hard to understand.
 - Avoid listing future plans for a product or feature, in part because when a feature is implemented can be ambiguous, or the product may be cancelled before it ever releases.
 - Use markdown (files ending in .md), and avoid using HTML snippets in markdown because HTML can make reading and editing documents in the wiki more complex.
 - Be respectful.
   
-For more information on style, please refer to [Style Guide page](/wiki/contribute/style-guide.md) of this section.
+For more information on style, please refer to [Style Guide page](style-guide.md) of this section.

@@ -107,7 +107,7 @@ const config = {
             label: "Support",
           },
           {
-            href: "/contribute",
+            href: "/contribute/contribute-overview",
             position: "left",
             label: "Contribute",
           },
