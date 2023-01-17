@@ -51,7 +51,7 @@ There are a multitude of infrastructure tools & services integrated into the NEA
 * [Ceramic Network](https://ceramic.network/) - Ceramic is a decentralized content computation network for a world of open source information.
 
 
-## Exploreres & Indexers
+## Explorers & Indexers
 
 * [NEAR Indexer For Explorer](https://docs.near.org/tools/indexer-for-explorer) - To query usage information while developing a dapp
   * [Github repo](https://github.com/near/near-indexer-for-explorer) for NEAR Indexer
